@@ -1,3 +1,6 @@
+"""
+記事タイトルの要素を取得するスクリプト
+"""
 import requests, bs4
 res = requests.get('https://tonari-it.com')
 res.raise_for_status()
